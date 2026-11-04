@@ -1,0 +1,2002 @@
+{
+ "padrao": {
+  "cities": [
+   "São Paulo, SP",
+   "Campinas, SP",
+   "Santos, SP",
+   "Sorocaba, SP",
+   "São José dos Campos, SP"
+  ],
+  "n": 5,
+  "vehicles": 5,
+  "total_demand": 130,
+  "critical": 2,
+  "groups": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": 1,
+   "E": 0
+  },
+  "city_rows": [
+   [
+    "São Paulo, SP",
+    "D",
+    "regular",
+    0,
+    "00:00-23:59"
+   ],
+   [
+    "Campinas, SP",
+    "A",
+    "critical",
+    30,
+    "08:00-12:00"
+   ],
+   [
+    "Santos, SP",
+    "C",
+    "regular",
+    40,
+    "09:00-17:00"
+   ],
+   [
+    "Sorocaba, SP",
+    "B",
+    "critical",
+    25,
+    "07:00-11:00"
+   ],
+   [
+    "São José dos Campos, SP",
+    "D",
+    "regular",
+    35,
+    "13:00-18:00"
+   ]
+  ],
+  "nn": {
+   "fitness": 845.32013080082,
+   "distance": 736.3322595753774,
+   "feasible": true,
+   "used": 3,
+   "routes": [
+    [],
+    [],
+    [
+     1
+    ],
+    [
+     3
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "loads": [
+    0.0,
+    0.0,
+    30,
+    25,
+    75
+   ],
+   "dists": [
+    0.0,
+    0.0,
+    218.31351113511727,
+    217.6379737666533,
+    300.3807746736069
+   ],
+   "types": [
+    "Moto",
+    "Carro",
+    "Carro elétrico",
+    "Caminhão com refrigeração",
+    "Caminhão sem refrigeração"
+   ],
+   "late": 0.0,
+   "refuels": 0,
+   "contamination": 0,
+   "refrigeration": 0,
+   "capacity_kg": 0.0
+  },
+  "random": {
+   "fitness": 42381553.156147026,
+   "distance": 619.0026954292182,
+   "feasible": false,
+   "used": 2,
+   "routes": [
+    [
+     1,
+     3
+    ],
+    [],
+    [
+     2,
+     4
+    ],
+    [],
+    []
+   ],
+   "loads": [
+    55,
+    0.0,
+    75,
+    0.0,
+    0.0
+   ],
+   "dists": [
+    318.62192075561137,
+    0.0,
+    300.3807746736069,
+    0.0,
+    0.0
+   ],
+   "types": [
+    "Moto",
+    "Carro",
+    "Carro elétrico",
+    "Caminhão com refrigeração",
+    "Caminhão sem refrigeração"
+   ],
+   "late": 0.0,
+   "refuels": 2,
+   "contamination": 1,
+   "refrigeration": 1,
+   "capacity_kg": 40.0
+  },
+  "ga": {
+   "A": {
+    "pop": 50,
+    "gen": 200,
+    "mut": 0.1,
+    "fit_mean": 845.32013080082,
+    "fit_std": 0.0,
+    "fit_best": 845.32013080082,
+    "dist_mean": 736.3322595753774,
+    "late_mean": 0.0,
+    "feasible": 5,
+    "ms_mean": 1404.2823399940971,
+    "best_run": {
+     "fitness": 845.32013080082,
+     "distance": 736.3322595753774,
+     "feasible": true,
+     "used": 3,
+     "routes": [
+      [],
+      [
+       2,
+       4
+      ],
+      [
+       1
+      ],
+      [
+       3
+      ],
+      []
+     ],
+     "loads": [
+      0.0,
+      75,
+      30,
+      25,
+      0.0
+     ],
+     "dists": [
+      0.0,
+      300.3807746736069,
+      218.31351113511727,
+      217.6379737666533,
+      0.0
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 0.0,
+     "refuels": 0,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 988.4917999734171,
+     "generations": 200,
+     "stopped": false
+    }
+   },
+   "B": {
+    "pop": 100,
+    "gen": 300,
+    "mut": 0.3,
+    "fit_mean": 845.32013080082,
+    "fit_std": 0.0,
+    "fit_best": 845.32013080082,
+    "dist_mean": 736.3322595753774,
+    "late_mean": 0.0,
+    "feasible": 5,
+    "ms_mean": 4921.381119999569,
+    "best_run": {
+     "fitness": 845.32013080082,
+     "distance": 736.3322595753774,
+     "feasible": true,
+     "used": 3,
+     "routes": [
+      [],
+      [
+       2,
+       4
+      ],
+      [
+       1
+      ],
+      [
+       3
+      ],
+      []
+     ],
+     "loads": [
+      0.0,
+      75,
+      30,
+      25,
+      0.0
+     ],
+     "dists": [
+      0.0,
+      300.3807746736069,
+      218.31351113511727,
+      217.6379737666533,
+      0.0
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 0.0,
+     "refuels": 0,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 5505.612000008114,
+     "generations": 300,
+     "stopped": false
+    }
+   },
+   "C": {
+    "pop": 200,
+    "gen": 500,
+    "mut": 0.5,
+    "fit_mean": 845.32013080082,
+    "fit_std": 0.0,
+    "fit_best": 845.32013080082,
+    "dist_mean": 736.3322595753774,
+    "late_mean": 0.0,
+    "feasible": 5,
+    "ms_mean": 12525.743040000089,
+    "best_run": {
+     "fitness": 845.32013080082,
+     "distance": 736.3322595753774,
+     "feasible": true,
+     "used": 3,
+     "routes": [
+      [],
+      [
+       2,
+       4
+      ],
+      [
+       1
+      ],
+      [
+       3
+      ],
+      []
+     ],
+     "loads": [
+      0.0,
+      75,
+      30,
+      25,
+      0.0
+     ],
+     "dists": [
+      0.0,
+      300.3807746736069,
+      218.31351113511727,
+      217.6379737666533,
+      0.0
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 0.0,
+     "refuels": 0,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 15429.087299999082,
+     "generations": 500,
+     "stopped": false
+    }
+   },
+   "D": {
+    "pop": 100,
+    "gen": 300,
+    "mut": 0.8,
+    "fit_mean": 845.32013080082,
+    "fit_std": 0.0,
+    "fit_best": 845.32013080082,
+    "dist_mean": 736.3322595753774,
+    "late_mean": 0.0,
+    "feasible": 5,
+    "ms_mean": 3714.531980000902,
+    "best_run": {
+     "fitness": 845.32013080082,
+     "distance": 736.3322595753774,
+     "feasible": true,
+     "used": 3,
+     "routes": [
+      [],
+      [
+       2,
+       4
+      ],
+      [
+       1
+      ],
+      [
+       3
+      ],
+      []
+     ],
+     "loads": [
+      0.0,
+      75,
+      30,
+      25,
+      0.0
+     ],
+     "dists": [
+      0.0,
+      300.3807746736069,
+      218.31351113511727,
+      217.6379737666533,
+      0.0
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 0.0,
+     "refuels": 0,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 3299.923200014746,
+     "generations": 300,
+     "stopped": false
+    }
+   }
+  }
+ },
+ "15": {
+  "cities": [
+   "Hortolândia, SP",
+   "Osasco, SP",
+   "Campinas, SP",
+   "Suzano, SP",
+   "Itu, SP",
+   "Americana, SP",
+   "Limeira, SP",
+   "Santo André, SP",
+   "Guarulhos, SP",
+   "Bauru, SP",
+   "Jundiaí, SP",
+   "São João da Boa Vista, SP",
+   "Itapetininga, SP",
+   "Santos, SP",
+   "Pindamonhangaba, SP"
+  ],
+  "n": 15,
+  "vehicles": 5,
+  "total_demand": 423,
+  "critical": 4,
+  "groups": {
+   "A": 4,
+   "B": 1,
+   "C": 4,
+   "D": 3,
+   "E": 2
+  },
+  "city_rows": [
+   [
+    "Hortolândia, SP",
+    "E",
+    "critical",
+    37,
+    "07:00-12:00"
+   ],
+   [
+    "Osasco, SP",
+    "E",
+    "regular",
+    50,
+    "07:00-12:00"
+   ],
+   [
+    "Campinas, SP",
+    "C",
+    "critical",
+    42,
+    "10:00-16:00"
+   ],
+   [
+    "Suzano, SP",
+    "D",
+    "regular",
+    15,
+    "07:00-19:00"
+   ],
+   [
+    "Itu, SP",
+    "C",
+    "critical",
+    18,
+    "08:00-18:00"
+   ],
+   [
+    "Americana, SP",
+    "C",
+    "critical",
+    11,
+    "07:00-12:00"
+   ],
+   [
+    "Limeira, SP",
+    "A",
+    "regular",
+    21,
+    "07:00-19:00"
+   ],
+   [
+    "Santo André, SP",
+    "D",
+    "regular",
+    12,
+    "14:00-20:00"
+   ],
+   [
+    "Guarulhos, SP",
+    "E",
+    "regular",
+    45,
+    "07:00-12:00"
+   ],
+   [
+    "Bauru, SP",
+    "A",
+    "regular",
+    17,
+    "07:00-19:00"
+   ],
+   [
+    "Jundiaí, SP",
+    "A",
+    "regular",
+    23,
+    "07:00-12:00"
+   ],
+   [
+    "São João da Boa Vista, SP",
+    "D",
+    "critical",
+    11,
+    "07:00-19:00"
+   ],
+   [
+    "Itapetininga, SP",
+    "B",
+    "regular",
+    28,
+    "08:00-18:00"
+   ],
+   [
+    "Santos, SP",
+    "C",
+    "regular",
+    47,
+    "08:00-18:00"
+   ],
+   [
+    "Pindamonhangaba, SP",
+    "A",
+    "regular",
+    46,
+    "14:00-20:00"
+   ]
+  ],
+  "nn": {
+   "fitness": 41861.75674845476,
+   "distance": 2334.2562329801463,
+   "feasible": true,
+   "used": 4,
+   "routes": [
+    [],
+    [
+     14,
+     9
+    ],
+    [
+     6,
+     10
+    ],
+    [
+     12
+    ],
+    [
+     2,
+     5,
+     4,
+     1,
+     8,
+     7,
+     3,
+     13,
+     11
+    ]
+   ],
+   "loads": [
+    0.0,
+    63,
+    44,
+    28,
+    251
+   ],
+   "dists": [
+    0.0,
+    986.7370681467548,
+    224.8044175862996,
+    306.5060016221445,
+    816.2087456249475
+   ],
+   "types": [
+    "Moto",
+    "Carro",
+    "Carro elétrico",
+    "Caminhão com refrigeração",
+    "Caminhão sem refrigeração"
+   ],
+   "late": 781.4867351416019,
+   "refuels": 3,
+   "contamination": 0,
+   "refrigeration": 0,
+   "capacity_kg": 0.0
+  },
+  "random": {
+   "fitness": 418128772.00367665,
+   "distance": 2891.448633275314,
+   "feasible": false,
+   "used": 5,
+   "routes": [
+    [
+     11,
+     9,
+     1
+    ],
+    [
+     6,
+     2,
+     14
+    ],
+    [
+     3,
+     5,
+     7
+    ],
+    [
+     12
+    ],
+    [
+     4,
+     10,
+     13,
+     8
+    ]
+   ],
+   "loads": [
+    78,
+    109,
+    38,
+    28,
+    133
+   ],
+   "dists": [
+    916.4207826476797,
+    563.2888412144672,
+    653.0875244601784,
+    306.5060016221445,
+    452.145483330844
+   ],
+   "types": [
+    "Moto",
+    "Carro",
+    "Carro elétrico",
+    "Caminhão com refrigeração",
+    "Caminhão sem refrigeração"
+   ],
+   "late": 760.6129132546293,
+   "refuels": 9,
+   "contamination": 2,
+   "refrigeration": 0,
+   "capacity_kg": 63.0
+  },
+  "ga": {
+   "A": {
+    "pop": 50,
+    "gen": 200,
+    "mut": 0.1,
+    "fit_mean": 7209.942090038674,
+    "fit_std": 4001.2647080276747,
+    "fit_best": 3669.9120543286963,
+    "dist_mean": 2311.4403224974317,
+    "late_mean": 90.11973323333116,
+    "feasible": 5,
+    "ms_mean": 2145.297920005396,
+    "best_run": {
+     "fitness": 3669.9120543286963,
+     "distance": 2512.1274399498993,
+     "feasible": true,
+     "used": 5,
+     "routes": [
+      [
+       11
+      ],
+      [
+       9,
+       14
+      ],
+      [
+       6,
+       10
+      ],
+      [
+       12
+      ],
+      [
+       5,
+       4,
+       1,
+       8,
+       2,
+       3,
+       13,
+       7
+      ]
+     ],
+     "loads": [
+      11,
+      63,
+      44,
+      28,
+      240
+     ],
+     "dists": [
+      280.69107903057994,
+      986.7370681467548,
+      224.8044175862996,
+      306.5060016221445,
+      713.3888735641203
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 17.338361133139188,
+     "refuels": 6,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 2122.8422000131104,
+     "generations": 200,
+     "stopped": false
+    }
+   },
+   "B": {
+    "pop": 100,
+    "gen": 300,
+    "mut": 0.3,
+    "fit_mean": 4537.173544211001,
+    "fit_std": 1097.9887854986284,
+    "fit_best": 3669.9120543286963,
+    "dist_mean": 2383.2005725020326,
+    "late_mean": 35.40927547588117,
+    "feasible": 5,
+    "ms_mean": 6544.66266001109,
+    "best_run": {
+     "fitness": 3669.9120543286963,
+     "distance": 2512.1274399498993,
+     "feasible": true,
+     "used": 5,
+     "routes": [
+      [
+       11
+      ],
+      [
+       9,
+       14
+      ],
+      [
+       10,
+       6
+      ],
+      [
+       12
+      ],
+      [
+       5,
+       4,
+       1,
+       8,
+       2,
+       3,
+       13,
+       7
+      ]
+     ],
+     "loads": [
+      11,
+      63,
+      44,
+      28,
+      240
+     ],
+     "dists": [
+      280.69107903057994,
+      986.7370681467548,
+      224.8044175862996,
+      306.5060016221445,
+      713.3888735641203
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 17.338361133139188,
+     "refuels": 6,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 6776.248900016071,
+     "generations": 300,
+     "stopped": false
+    }
+   },
+   "C": {
+    "pop": 200,
+    "gen": 500,
+    "mut": 0.5,
+    "fit_mean": 3718.3720010847783,
+    "fit_std": 244.48425237508334,
+    "fit_best": 3416.0619212189013,
+    "dist_mean": 2451.3256086668825,
+    "late_mean": 20.419769189993712,
+    "feasible": 5,
+    "ms_mean": 26676.833320007427,
+    "best_run": {
+     "fitness": 3416.0619212189013,
+     "distance": 2360.122861742357,
+     "feasible": true,
+     "used": 5,
+     "routes": [
+      [
+       11
+      ],
+      [
+       5,
+       2,
+       4,
+       7,
+       13,
+       3
+      ],
+      [
+       10,
+       8,
+       1
+      ],
+      [
+       12
+      ],
+      [
+       9,
+       6,
+       14
+      ]
+     ],
+     "loads": [
+      11,
+      145,
+      118,
+      28,
+      84
+     ],
+     "dists": [
+      280.69107903057994,
+      511.18849415690505,
+      274.7966986438364,
+      306.5060016221445,
+      986.9405882888913
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 17.5418812752755,
+     "refuels": 5,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 24597.08770000725,
+     "generations": 500,
+     "stopped": false
+    }
+   },
+   "D": {
+    "pop": 100,
+    "gen": 300,
+    "mut": 0.8,
+    "fit_mean": 4239.366761340486,
+    "fit_std": 89.77972698709144,
+    "fit_best": 4166.061921218901,
+    "dist_mean": 2339.1465350977355,
+    "late_mean": 32.5418812752755,
+    "feasible": 5,
+    "ms_mean": 8746.95289999945,
+    "best_run": {
+     "fitness": 4166.061921218901,
+     "distance": 2360.122861742357,
+     "feasible": true,
+     "used": 5,
+     "routes": [
+      [
+       11
+      ],
+      [
+       9,
+       6,
+       14
+      ],
+      [
+       10,
+       8,
+       1
+      ],
+      [
+       12
+      ],
+      [
+       5,
+       2,
+       4,
+       7,
+       13,
+       3
+      ]
+     ],
+     "loads": [
+      11,
+      84,
+      118,
+      28,
+      145
+     ],
+     "dists": [
+      280.69107903057994,
+      986.9405882888913,
+      274.7966986438364,
+      306.5060016221445,
+      511.18849415690505
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 32.5418812752755,
+     "refuels": 6,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 10432.915999990655,
+     "generations": 300,
+     "stopped": false
+    }
+   }
+  }
+ },
+ "25": {
+  "cities": [
+   "Guarujá, SP",
+   "São Bernardo do Campo, SP",
+   "Ubatuba, SP",
+   "Valinhos, SP",
+   "Sorocaba, SP",
+   "São José dos Campos, SP",
+   "Bauru, SP",
+   "Guarulhos, SP",
+   "Bertioga, SP",
+   "São João da Boa Vista, SP",
+   "Suzano, SP",
+   "Ribeirão Preto, SP",
+   "Piracicaba, SP",
+   "Santos, SP",
+   "Jundiaí, SP",
+   "Itapetininga, SP",
+   "Registro, SP",
+   "Barueri, SP",
+   "Americana, SP",
+   "Vinhedo, SP",
+   "Marília, SP",
+   "Campinas, SP",
+   "Jaú, SP",
+   "Bragança Paulista, SP",
+   "Itaquaquecetuba, SP"
+  ],
+  "n": 25,
+  "vehicles": 5,
+  "total_demand": 707,
+  "critical": 4,
+  "groups": {
+   "A": 3,
+   "B": 6,
+   "C": 5,
+   "D": 5,
+   "E": 5
+  },
+  "city_rows": [
+   [
+    "Guarujá, SP",
+    "A",
+    "regular",
+    42,
+    "08:00-12:00"
+   ],
+   [
+    "São Bernardo do Campo, SP",
+    "B",
+    "regular",
+    8,
+    "13:00-18:00"
+   ],
+   [
+    "Ubatuba, SP",
+    "C",
+    "regular",
+    13,
+    "07:00-12:00"
+   ],
+   [
+    "Valinhos, SP",
+    "E",
+    "critical",
+    12,
+    "10:00-16:00"
+   ],
+   [
+    "Sorocaba, SP",
+    "B",
+    "regular",
+    48,
+    "08:00-18:00"
+   ],
+   [
+    "São José dos Campos, SP",
+    "B",
+    "regular",
+    45,
+    "07:00-12:00"
+   ],
+   [
+    "Bauru, SP",
+    "A",
+    "critical",
+    50,
+    "08:00-18:00"
+   ],
+   [
+    "Guarulhos, SP",
+    "D",
+    "critical",
+    18,
+    "13:00-18:00"
+   ],
+   [
+    "Bertioga, SP",
+    "D",
+    "regular",
+    25,
+    "14:00-20:00"
+   ],
+   [
+    "São João da Boa Vista, SP",
+    "C",
+    "regular",
+    28,
+    "13:00-18:00"
+   ],
+   [
+    "Suzano, SP",
+    "B",
+    "regular",
+    49,
+    "08:00-12:00"
+   ],
+   [
+    "Ribeirão Preto, SP",
+    "D",
+    "regular",
+    38,
+    "07:00-12:00"
+   ],
+   [
+    "Piracicaba, SP",
+    "E",
+    "regular",
+    23,
+    "08:00-18:00"
+   ],
+   [
+    "Santos, SP",
+    "B",
+    "critical",
+    31,
+    "07:00-12:00"
+   ],
+   [
+    "Jundiaí, SP",
+    "D",
+    "regular",
+    36,
+    "07:00-19:00"
+   ],
+   [
+    "Itapetininga, SP",
+    "E",
+    "regular",
+    9,
+    "07:00-12:00"
+   ],
+   [
+    "Registro, SP",
+    "C",
+    "regular",
+    25,
+    "13:00-18:00"
+   ],
+   [
+    "Barueri, SP",
+    "E",
+    "regular",
+    36,
+    "14:00-20:00"
+   ],
+   [
+    "Americana, SP",
+    "C",
+    "regular",
+    10,
+    "07:00-19:00"
+   ],
+   [
+    "Vinhedo, SP",
+    "A",
+    "regular",
+    9,
+    "10:00-16:00"
+   ],
+   [
+    "Marília, SP",
+    "E",
+    "regular",
+    46,
+    "14:00-20:00"
+   ],
+   [
+    "Campinas, SP",
+    "D",
+    "regular",
+    23,
+    "14:00-20:00"
+   ],
+   [
+    "Jaú, SP",
+    "C",
+    "regular",
+    34,
+    "14:00-20:00"
+   ],
+   [
+    "Bragança Paulista, SP",
+    "A",
+    "regular",
+    36,
+    "08:00-12:00"
+   ],
+   [
+    "Itaquaquecetuba, SP",
+    "B",
+    "regular",
+    13,
+    "08:00-12:00"
+   ]
+  ],
+  "nn": {
+   "fitness": 316105.9860991154,
+   "distance": 3634.4964021896485,
+   "feasible": true,
+   "used": 3,
+   "routes": [
+    [],
+    [
+     2,
+     9,
+     18,
+     22,
+     16
+    ],
+    [],
+    [
+     13,
+     1,
+     10,
+     24,
+     5,
+     4
+    ],
+    [
+     8,
+     7,
+     17,
+     14,
+     19,
+     3,
+     21,
+     23,
+     12,
+     15,
+     6,
+     20,
+     11
+    ]
+   ],
+   "loads": [
+    0.0,
+    110,
+    0.0,
+    194,
+    361
+   ],
+   "dists": [
+    0.0,
+    1346.0994324457452,
+    0.0,
+    563.3315247204339,
+    1725.0654450234692
+   ],
+   "types": [
+    "Moto",
+    "Carro",
+    "Carro elétrico",
+    "Caminhão com refrigeração",
+    "Caminhão sem refrigeração"
+   ],
+   "late": 6237.71717584712,
+   "refuels": 8,
+   "contamination": 0,
+   "refrigeration": 0,
+   "capacity_kg": 0.0
+  },
+  "random": {
+   "fitness": 1139858107.8055725,
+   "distance": 6605.600476447162,
+   "feasible": false,
+   "used": 5,
+   "routes": [
+    [
+     23,
+     22,
+     16,
+     7,
+     21,
+     10,
+     18,
+     2
+    ],
+    [
+     20,
+     5,
+     9,
+     19,
+     8,
+     3
+    ],
+    [
+     6,
+     17,
+     12,
+     4
+    ],
+    [
+     1,
+     14,
+     15
+    ],
+    [
+     24,
+     11,
+     13
+    ]
+   ],
+   "loads": [
+    208,
+    165,
+    157,
+    53,
+    82
+   ],
+   "dists": [
+    1910.3151077846514,
+    1995.4903355432366,
+    1227.2337027286305,
+    553.20153730399,
+    919.359793086653
+   ],
+   "types": [
+    "Moto",
+    "Carro",
+    "Carro elétrico",
+    "Caminhão com refrigeração",
+    "Caminhão sem refrigeração"
+   ],
+   "late": 12314.257523970651,
+   "refuels": 26,
+   "contamination": 14,
+   "refrigeration": 5,
+   "capacity_kg": 193.0
+  },
+  "ga": {
+   "A": {
+    "pop": 50,
+    "gen": 200,
+    "mut": 0.1,
+    "fit_mean": 105677.7119281682,
+    "fit_std": 14879.391470066304,
+    "fit_best": 84573.71432182887,
+    "dist_mean": 3773.6698308335845,
+    "late_mean": 2026.7702657156126,
+    "feasible": 5,
+    "ms_mean": 3535.3570199979004,
+    "best_run": {
+     "fitness": 84573.71432182887,
+     "distance": 3895.0214536761514,
+     "feasible": true,
+     "used": 5,
+     "routes": [
+      [
+       2
+      ],
+      [
+       14,
+       9,
+       21,
+       18,
+       12,
+       22,
+       16
+      ],
+      [
+       8,
+       7,
+       17
+      ],
+      [
+       13,
+       5,
+       10,
+       24,
+       4,
+       1
+      ],
+      [
+       23,
+       3,
+       19,
+       15,
+       6,
+       20,
+       11
+      ]
+     ],
+     "loads": [
+      13,
+      179,
+      79,
+      194,
+      200
+     ],
+     "dists": [
+      349.504036027246,
+      1234.5099744224412,
+      257.2496727864794,
+      539.131352629237,
+      1514.6264178107479
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 1604.1098932057728,
+     "refuels": 10,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 3128.061900002649,
+     "generations": 200,
+     "stopped": false
+    }
+   },
+   "B": {
+    "pop": 100,
+    "gen": 300,
+    "mut": 0.3,
+    "fit_mean": 83418.70770835044,
+    "fit_std": 3399.951284582451,
+    "fit_best": 79386.44202434382,
+    "dist_mean": 3857.113028984545,
+    "late_mean": 1582.253674436314,
+    "feasible": 5,
+    "ms_mean": 9793.746139993891,
+    "best_run": {
+     "fitness": 79386.44202434382,
+     "distance": 3888.7982759019346,
+     "feasible": true,
+     "used": 5,
+     "routes": [
+      [
+       2
+      ],
+      [
+       14,
+       3,
+       9,
+       21,
+       18,
+       12,
+       22,
+       16
+      ],
+      [
+       8,
+       7,
+       17
+      ],
+      [
+       13,
+       5,
+       10,
+       24,
+       4,
+       1
+      ],
+      [
+       23,
+       19,
+       15,
+       6,
+       20,
+       11
+      ]
+     ],
+     "loads": [
+      13,
+      191,
+      79,
+      194,
+      188
+     ],
+     "dists": [
+      349.504036027246,
+      1239.071613764158,
+      257.2496727864794,
+      539.131352629237,
+      1503.8416006948141
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 1500.9706247420381,
+     "refuels": 10,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 9459.801099990727,
+     "generations": 300,
+     "stopped": false
+    }
+   },
+   "C": {
+    "pop": 200,
+    "gen": 500,
+    "mut": 0.5,
+    "fit_mean": 80371.89276766624,
+    "fit_std": 2535.5431761448153,
+    "fit_best": 75300.80641537662,
+    "dist_mean": 3853.668609429428,
+    "late_mean": 1521.3431049720493,
+    "feasible": 5,
+    "ms_mean": 26428.993140003877,
+    "best_run": {
+     "fitness": 75300.80641537662,
+     "distance": 4020.422056228077,
+     "feasible": true,
+     "used": 5,
+     "routes": [
+      [
+       2
+      ],
+      [
+       15,
+       16,
+       21,
+       18,
+       9,
+       22
+      ],
+      [
+       8,
+       7,
+       17
+      ],
+      [
+       13,
+       5,
+       10,
+       24,
+       4,
+       1
+      ],
+      [
+       23,
+       14,
+       19,
+       3,
+       12,
+       6,
+       20,
+       11
+      ]
+     ],
+     "loads": [
+      13,
+      129,
+      79,
+      194,
+      250
+     ],
+     "dists": [
+      349.504036027246,
+      1436.6760809470102,
+      257.2496727864794,
+      539.131352629237,
+      1437.8609138381046
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 1416.5975602511667,
+     "refuels": 9,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 19482.583199976943,
+     "generations": 500,
+     "stopped": false
+    }
+   },
+   "D": {
+    "pop": 100,
+    "gen": 300,
+    "mut": 0.8,
+    "fit_mean": 84158.88903692152,
+    "fit_std": 5037.905069758608,
+    "fit_best": 81639.66435573866,
+    "dist_mean": 3810.0327556246853,
+    "late_mean": 1597.3339641441391,
+    "feasible": 5,
+    "ms_mean": 6251.29516000743,
+    "best_run": {
+     "fitness": 81639.66435573866,
+     "distance": 3811.9802477297662,
+     "feasible": true,
+     "used": 5,
+     "routes": [
+      [
+       2
+      ],
+      [
+       15,
+       18,
+       9,
+       11,
+       22,
+       16
+      ],
+      [
+       8,
+       7,
+       17
+      ],
+      [
+       13,
+       5,
+       10,
+       24,
+       4,
+       1
+      ],
+      [
+       23,
+       14,
+       19,
+       3,
+       21,
+       12,
+       6,
+       20
+      ]
+     ],
+     "loads": [
+      13,
+      144,
+      79,
+      194,
+      235
+     ],
+     "dists": [
+      349.504036027246,
+      1453.545171615053,
+      257.2496727864794,
+      539.131352629237,
+      1212.550014671751
+     ],
+     "types": [
+      "Moto",
+      "Carro",
+      "Carro elétrico",
+      "Caminhão com refrigeração",
+      "Caminhão sem refrigeração"
+     ],
+     "late": 1547.5294911522699,
+     "refuels": 10,
+     "contamination": 0,
+     "refrigeration": 0,
+     "capacity_kg": 0.0,
+     "ms": 5926.632799993968,
+     "generations": 300,
+     "stopped": false
+    }
+   }
+  }
+ },
+ "stagnation": [
+  {
+   "scenario": "15",
+   "stagnation": 0,
+   "generations": 1000,
+   "fitness": 5999.441222709284,
+   "fit_best": 3669.9120543286963,
+   "ms": 12648.25465999893,
+   "feasible": 5
+  },
+  {
+   "scenario": "15",
+   "stagnation": 50,
+   "generations": 90.6,
+   "fitness": 7980.538326830169,
+   "fit_best": 4349.324021522863,
+   "ms": 1164.9371599953156,
+   "feasible": 5
+  },
+  {
+   "scenario": "15",
+   "stagnation": 100,
+   "generations": 140.6,
+   "fitness": 7980.538326830169,
+   "fit_best": 4349.324021522863,
+   "ms": 2326.245060004294,
+   "feasible": 5
+  },
+  {
+   "scenario": "15",
+   "stagnation": 200,
+   "generations": 240.6,
+   "fitness": 7980.538326830169,
+   "fit_best": 4349.324021522863,
+   "ms": 3951.925359998131,
+   "feasible": 5
+  },
+  {
+   "scenario": "25",
+   "stagnation": 0,
+   "generations": 1000,
+   "fitness": 82325.21639742175,
+   "fit_best": 79386.44202434382,
+   "ms": 14083.301659999415,
+   "feasible": 5
+  },
+  {
+   "scenario": "25",
+   "stagnation": 50,
+   "generations": 107,
+   "fitness": 91919.78434636867,
+   "fit_best": 80542.70556609907,
+   "ms": 1573.7085800035857,
+   "feasible": 5
+  },
+  {
+   "scenario": "25",
+   "stagnation": 100,
+   "generations": 157,
+   "fitness": 91919.78434636867,
+   "fit_best": 80542.70556609907,
+   "ms": 2206.5509199921507,
+   "feasible": 5
+  },
+  {
+   "scenario": "25",
+   "stagnation": 200,
+   "generations": 326,
+   "fitness": 89305.97093453348,
+   "fit_best": 79386.44202434382,
+   "ms": 4641.493279993301,
+   "feasible": 5
+  }
+ ],
+ "seed": {
+  "same_seed": [
+   3669.9120543286963,
+   3669.9120543286963
+  ],
+  "same_routes": true,
+  "no_seed": [
+   6647.395569351885,
+   14392.478878127273
+  ]
+ },
+ "priority": [
+  {
+   "pw": 0.0,
+   "dist": 2257.7979710394707,
+   "crit_arrival": 203.73435295507434,
+   "feasible": 5
+  },
+  {
+   "pw": 0.5,
+   "dist": 2294.8997297178744,
+   "crit_arrival": 178.56720018024333,
+   "feasible": 5
+  },
+  {
+   "pw": 2.0,
+   "dist": 2282.2389239713843,
+   "crit_arrival": 198.50612264550642,
+   "feasible": 5
+  }
+ ],
+ "repair": [
+  {
+   "scenario": "15",
+   "mode": "com reparo",
+   "feasible": 5,
+   "fitness": 5231.9002205936795,
+   "distance": 2305.6509473402953,
+   "sanitary": 0
+  },
+  {
+   "scenario": "15",
+   "mode": "sem reparo",
+   "feasible": 5,
+   "fitness": 9619.52451504235,
+   "distance": 2307.7284091201627,
+   "sanitary": 0
+  },
+  {
+   "scenario": "25",
+   "mode": "com reparo",
+   "feasible": 5,
+   "fitness": 84821.77220580248,
+   "distance": 3918.5669260253976,
+   "sanitary": 0
+  },
+  {
+   "scenario": "25",
+   "mode": "sem reparo",
+   "feasible": 5,
+   "fitness": 139105.7304329406,
+   "distance": 3915.620871741329,
+   "sanitary": 0
+  }
+ ],
+ "fleet": [
+  {
+   "fleet": "Padrão (1 de cada tipo)",
+   "n": 5,
+   "feasible": 3,
+   "distance": 2228.5895468510066,
+   "used": 4,
+   "late": 178.41928941456868,
+   "sanitary": 0
+  },
+  {
+   "fleet": "Sem caminhão sem refrigeração",
+   "n": 4,
+   "feasible": 0,
+   "distance": 2300.7972285488445,
+   "used": 3.3333333333333335,
+   "late": 400.0490269978897,
+   "sanitary": 1
+  },
+  {
+   "fleet": "Sem caminhão com refrigeração",
+   "n": 4,
+   "feasible": 0,
+   "distance": 2278.662484636445,
+   "used": 3.6666666666666665,
+   "late": 527.3231010618586,
+   "sanitary": 2
+  },
+  {
+   "fleet": "Padrão + 1 caminhão refrigerado",
+   "n": 6,
+   "feasible": 3,
+   "distance": 2104.1459737630994,
+   "used": 5.666666666666667,
+   "late": 0.0,
+   "sanitary": 0
+  }
+ ],
+ "refuel": {
+  "distance": 8358.769819621686,
+  "duration": 8658.769819621686,
+  "refuels": 19,
+  "en_route": 18,
+  "stops": [
+   {
+    "en_route": true,
+    "km_into": 425.0,
+    "leg": [
+     0,
+     1
+    ],
+    "start": 845.0,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 850.0,
+    "leg": [
+     0,
+     1
+    ],
+    "start": 1285.0,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 1275.0,
+    "leg": [
+     0,
+     1
+    ],
+    "start": 1725.0,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 1700.0,
+    "leg": [
+     0,
+     1
+    ],
+    "start": 2165.0,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 2125.0,
+    "leg": [
+     0,
+     1
+    ],
+    "start": 2605.0,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 2550.0,
+    "leg": [
+     0,
+     1
+    ],
+    "start": 3045.0,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 2975.0,
+    "leg": [
+     0,
+     1
+    ],
+    "start": 3485.0,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 3400.0,
+    "leg": [
+     0,
+     1
+    ],
+    "start": 3925.0,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 3825.0,
+    "leg": [
+     0,
+     1
+    ],
+    "start": 4365.0,
+    "left": 15.0
+   },
+   {
+    "en_route": false,
+    "km_into": 0.0,
+    "leg": [
+     null,
+     null
+    ],
+    "start": 4749.384909810843,
+    "left": 29.12301803783139
+   },
+   {
+    "en_route": true,
+    "km_into": 425.0,
+    "leg": [
+     1,
+     0
+    ],
+    "start": 5189.384909810843,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 850.0,
+    "leg": [
+     1,
+     0
+    ],
+    "start": 5629.384909810843,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 1275.0,
+    "leg": [
+     1,
+     0
+    ],
+    "start": 6069.384909810843,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 1700.0,
+    "leg": [
+     1,
+     0
+    ],
+    "start": 6509.384909810843,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 2125.0,
+    "leg": [
+     1,
+     0
+    ],
+    "start": 6949.384909810843,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 2550.0,
+    "leg": [
+     1,
+     0
+    ],
+    "start": 7389.384909810843,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 2975.0,
+    "leg": [
+     1,
+     0
+    ],
+    "start": 7829.384909810843,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 3400.0,
+    "leg": [
+     1,
+     0
+    ],
+    "start": 8269.384909810844,
+    "left": 15.0
+   },
+   {
+    "en_route": true,
+    "km_into": 3825.0,
+    "leg": [
+     1,
+     0
+    ],
+    "start": 8709.384909810844,
+    "left": 15.0
+   }
+  ]
+ }
+}
