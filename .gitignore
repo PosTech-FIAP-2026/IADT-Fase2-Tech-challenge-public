@@ -1,0 +1,43 @@
+# ---------- Variáveis de ambiente / segredos ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------- Python ----------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# ---------- Node / Angular ----------
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-error.log*
+
+# ---------- IDE / SO ----------
+.vscode/
+.idea/
+.claude/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Arquivos temporários do Office ----------
+~$*
+
+# ---------- Material do curso (PDF do enunciado, protegido por senha) ----------
+IADT - Fase 2 - Tech challenge.pdf
+/.vs
+/.github/workflows
